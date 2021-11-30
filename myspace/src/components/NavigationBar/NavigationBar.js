@@ -3,14 +3,17 @@ import React from 'react';
 import { Wrapper, Content , Links, Container} from './NavigationBar.styles';
 //import material components
 import GroupIcon from '@mui/icons-material/Group';
+//import react router link
+import { Link } from 'react-router-dom';
 const NavigationBar = () => {
     return (
         <Wrapper>
             <Content>
-                <Links href=''><GroupIcon/></Links>
+                <Link to='/'><GroupIcon/></Link>
+
                 <Container>
-                    <Links href=''>Log In</Links>
-                    <Links href=''>Sign Up</Links>
+                <Link to='/login'>Login</Link>
+                <Link to='/signup'>Sign Up</Link>
                 </Container>
             </Content>
         </Wrapper>

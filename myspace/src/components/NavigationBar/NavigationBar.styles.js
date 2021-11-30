@@ -13,12 +13,22 @@ export const Content = styled.div`
     justify-content: space-between;
     width: 100%;
     color: white;
+    a {
+        color: white;
+        text-decoration: none;
+        margin: 0px 10px;
+
+    }
 `;
 export const Container = styled.div`
+    a {
+        color: white;
+        text-decoration: none;
+        margin: 0px 10px;
 
+    }
 `;
 export const Links = styled.a`
     color: white;
     text-decoration: none;
-    margin: 0px 10px;
 `;
